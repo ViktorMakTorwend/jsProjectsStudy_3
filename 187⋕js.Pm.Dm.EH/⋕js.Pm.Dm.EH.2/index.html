@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.EH.2</title>
+	</head>
+	<body>
+        <p id="p1">25</p>
+        <p id="p2">35</p>
+        <button id="but1" >push</button> 
+        <button id="but2" >push</button>
+
+        
+	<script>
+		let p1 = document.querySelector('#p1');
+        let p2 = document.querySelector('#p2');
+        let but1 = document.querySelector('#but1');
+        let but2 = document.querySelector('#but2');
+     
+        but1.addEventListener('click', function () {alert(p1.innerHTML);});
+        but2.addEventListener('click', function () {alert(p2.innerHTML);});
+
+	</script>
+    
+	</body>
+</html>
