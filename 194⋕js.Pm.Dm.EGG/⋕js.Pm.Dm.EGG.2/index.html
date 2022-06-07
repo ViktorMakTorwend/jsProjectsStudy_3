@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.EGG.2</title>
+	</head>
+	<body>
+        
+      <p>not tetx1</p>
+      <p>not text2</p>
+      <p>not text3</p>
+       <button id="btn" >push</button>
+      
+	<script>
+        let ps = document.querySelectorAll('p');
+        let btn = document.querySelector('#btn');
+
+        btn.addEventListener('click', func);
+
+        function func(){
+            let k = 1;
+            for ( let elem of ps){
+                elem.innerHTML = 'text' + k;
+                k++;
+            }
+        }
+
+        
+
+	</script>
+    
+	</body>
+</html>

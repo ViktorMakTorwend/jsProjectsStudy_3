@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.AMPDf.1</title>
+	</head>
+	<body>
+        
+        <input id="elem" value="text">
+        <button>push</button>
+      
+	<script>
+
+        let elem = document.querySelector('#elem');
+        let btn =document.querySelector('button');
+
+        btn.addEventListener('click', func);
+
+        function func (){
+            if (elem.value === elem.getAttribute('value')){alert('Not changes');}
+            else {alert ('Yes, it has changes')}
+        }
+
+	</script>
+    
+	</body>
+</html>

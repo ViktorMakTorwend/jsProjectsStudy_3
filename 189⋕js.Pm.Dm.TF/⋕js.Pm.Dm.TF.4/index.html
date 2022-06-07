@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.TF.4</title>
+	</head>
+	<body>
+        
+        <input id="elem1" value="number">
+        <input id="elem2" value="number*2">
+        <button id="button" >push</button>
+
+	<script>
+        let but = document.querySelector('#button');
+        let elem1 = document.querySelector('#elem1');
+        let elem2 = document.querySelector('#elem2');
+    
+        but.addEventListener('click', function () {elem2.value = elem1.value * elem1.value});
+
+	</script>
+    
+	</body>
+</html>

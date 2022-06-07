@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.HU.2</title>
+	</head>
+	<body>
+        
+        <button> 1 </button>
+      
+	<script>
+        let btn = document.querySelector('button');
+
+        btn.addEventListener('click', func);
+
+        function func (){
+            if( this.innerHTML < 10){
+                this.innerHTML++;
+            }
+            else {this.removeEventListener('click', func);}
+            
+        }
+    
+
+
+        
+
+	</script>
+    
+	</body>
+</html>

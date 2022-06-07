@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.Ths.1</title>
+	</head>
+	<body>
+        
+        <input type="text" id="elem">
+      
+	<script>
+        let elem1 = document.querySelector('#elem');
+
+        elem1.addEventListener('focus', function (){ this.value = '1'});
+        elem1.addEventListener('blur', function (){this.value = '2'});
+	</script>
+    
+	</body>
+</html>

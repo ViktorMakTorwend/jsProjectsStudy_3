@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.LH.2</title>
+	</head>
+	<body>
+        
+        <p>2</p> 
+        <p>3</p>
+      
+	<script>
+        let ps = document.querySelectorAll('p');
+
+        for(let elem of ps){
+            elem.addEventListener('click', func);
+        }
+
+        function func() {
+	        this.innerHTML *= this.innerHTML;
+        }
+
+	</script>
+    
+	</body>
+</html>

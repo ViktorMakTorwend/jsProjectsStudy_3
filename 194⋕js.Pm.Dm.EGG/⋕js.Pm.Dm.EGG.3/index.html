@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.EGG.3</title>
+	</head>
+	<body>
+        
+        <input type="text">  
+        <input type="text">  
+        <input type="text">  
+        <p>sum</p>
+        <button id="btn" >push</button>
+      
+	<script>
+        let is = document.querySelectorAll('input');
+        let p = document.querySelector('p');
+        let btn = document.querySelector('#btn');
+
+        btn.addEventListener('click', func);
+
+        function func(){
+            let sum = 0;
+            for ( let elem of is){
+                sum += Number(elem.value);
+            }
+            p.innerHTML = sum;
+        }
+
+        
+
+	</script>
+    
+	</body>
+</html>

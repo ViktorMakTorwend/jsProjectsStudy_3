@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.EA.3</title>
+	</head>
+	<body>
+        
+        <div id="elem" class="aaa bbb ccc"></div>
+        <button id="btn" >push</button>
+      
+	<script>
+        let elem1 = document.querySelector('#elem');
+        let btn1 = document.querySelector('#btn');
+
+
+
+        btn1.addEventListener('click', function (){
+            let resultArr = [];
+            resultArr = elem1.className.slice(' ');
+            console.log(resultArr);
+        });
+	</script>
+    
+	</body>
+</html>

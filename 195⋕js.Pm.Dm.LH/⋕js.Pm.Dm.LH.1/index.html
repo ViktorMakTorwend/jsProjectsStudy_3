@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.LH.1</title>
+	</head>
+	<body>
+        
+        <input type="text">  
+        <input type="text">  
+        <input type="text">  
+      
+	<script>
+        let is = document.querySelectorAll('input');
+
+        for(let elem of is){
+            elem.addEventListener('blur', func);
+        }
+
+        function func() {
+	        this.value = Number(this.value) + 1;
+        }
+
+	</script>
+    
+	</body>
+</html>

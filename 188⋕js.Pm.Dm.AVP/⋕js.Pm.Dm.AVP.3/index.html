@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.AVP.3</title>
+	</head>
+	<body>
+        <a id="a1" href="https://www.google.ru"></a>
+        <button id="button" >push</button>
+        <p id="p1" ></p>
+
+	<script>
+		let a1 = document.querySelector('#a1');
+        let but = document.querySelector('#button');
+        let p1 = document.querySelector('#p1');
+    
+        but.addEventListener('click', function () {p1.innerHTML = a1.href});
+
+	</script>
+    
+	</body>
+</html>

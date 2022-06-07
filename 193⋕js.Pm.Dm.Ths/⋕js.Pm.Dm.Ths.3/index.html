@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.Ths.3</title>
+	</head>
+	<body>
+        
+        <p id="p1" >text1</p>
+        <p id="p2" >text2</p>
+        <p id="p3" >text3</p>
+      
+	<script>
+        let p1 = document.querySelector('#p1');
+        let p2 = document.querySelector('#p2');
+        let p3 = document.querySelector('#p3');
+
+        p1.addEventListener('click', func);
+        p2.addEventListener('click', func);
+        p3.addEventListener('click', func);
+
+        function func (){
+            this.innerHTML += '!';
+        }
+
+        
+	</script>
+    
+	</body>
+</html>

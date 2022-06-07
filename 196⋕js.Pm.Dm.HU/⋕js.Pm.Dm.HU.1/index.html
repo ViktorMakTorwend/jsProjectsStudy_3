@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.HU.1</title>
+	</head>
+	<body>
+        <a href="https://www.youtube.com" onclick="return false">youtube</a>
+        
+      
+	<script>
+        let a = document.querySelector('a');
+
+        a.addEventListener('click', func);
+
+        function func (){
+            this.innerHTML += ' (' + this.href + ')';
+            this.removeEventListener('click', func);
+        }
+    
+
+
+        
+
+	</script>
+    
+	</body>
+</html>

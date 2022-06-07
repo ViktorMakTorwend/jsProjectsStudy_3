@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.TF.5</title>
+	</head>
+	<body>
+        
+        <input id="elem1" value="text1">
+        <input id="elem2" value="text2">
+        <button id="button" >push</button>
+
+	<script>
+        let but = document.querySelector('#button');
+        let elem1 = document.querySelector('#elem1');
+        let elem2 = document.querySelector('#elem2');
+    
+        but.addEventListener('click', function () {
+            let elemTemp = elem2.value;
+            elem2.value = elem1.value;
+            elem1.value = elemTemp;
+        });
+
+	</script>
+    
+	</body>
+</html>

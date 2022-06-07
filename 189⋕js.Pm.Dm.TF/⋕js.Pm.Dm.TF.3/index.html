@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.TF.3</title>
+	</head>
+	<body>
+        
+        <input id="elem" value="text1">
+        <p id="p1" ></p>
+        <button id="button" >push</button>
+
+	<script>
+        let but = document.querySelector('#button');
+        let elem = document.querySelector('#elem');
+        let p1 = document.querySelector('#p1');
+    
+        but.addEventListener('click', function () {p1.innerHTML = elem.value});
+
+	</script>
+    
+	</body>
+</html>

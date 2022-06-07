@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.Ths.4</title>
+	</head>
+	<body>
+        
+        <input type="text" id="el1" >
+        <input type="text" id="el2" >
+        <input type="text" id="el3" >
+      
+	<script>
+        let el1 = document.querySelector('#el1');
+        let el2 = document.querySelector('#el2');
+        let el3 = document.querySelector('#el3');
+
+        el1.addEventListener('blur', func);
+        el2.addEventListener('blur', func);
+        el3.addEventListener('blur', func);
+
+        function func (){
+            this.value *= this.value;
+        }
+
+        
+	</script>
+    
+	</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+    <title>⋕js.Pm.Dm.LHU.1</title>
+	</head>
+	<body>
+        
+        <p>text1</p>
+        <p>text2</p>
+        <p>text3</p>
+      
+	<script>
+        let ps = document.querySelectorAll('p');
+
+        for (let elem of ps){
+            elem.addEventListener('click', func);
+        }
+
+        function func (){
+            this.innerHTML += '!';
+            this.removeEventListener('click', func);  
+        }
+
+	</script>
+    
+	</body>
+</html>
